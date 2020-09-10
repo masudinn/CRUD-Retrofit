@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Value {
     String value;
     String message;
-    ArrayList<Mahasiswa> mahasiswaArrayList;
+    ArrayList<Mahasiswa>mahasiswaList;
 
     public String getValue() {
         return value;
@@ -15,7 +15,7 @@ public class Value {
         return message;
     }
 
-    public ArrayList<Mahasiswa> getMahasiswaArrayList() {
-        return mahasiswaArrayList;
+    public ArrayList<Mahasiswa> getMahasiswaList() {
+        return mahasiswaList;
     }
 }

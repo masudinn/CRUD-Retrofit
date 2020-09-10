@@ -8,7 +8,7 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 
-public interface Api {
+public interface ApiMhs {
 
     @FormUrlEncoded
     @POST("insert.php")
