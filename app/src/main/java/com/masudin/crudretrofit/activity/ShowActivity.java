@@ -73,7 +73,7 @@ public class ShowActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<Value> call, Throwable t) {
-                Toast.makeText(ShowActivity.this, "Gagal :c", Toast.LENGTH_LONG).show();
+                Toast.makeText(ShowActivity.this, "Gagal :(", Toast.LENGTH_LONG).show();
             }
         });
     }
